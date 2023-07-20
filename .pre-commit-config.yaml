@@ -15,7 +15,7 @@ repos:
       - id: black
         exclude: "tests/test_model/interface2050.py"
   - repo: https://gitlab.com/pipeline-components/flake8
-    rev: v0.11.3
+    rev: v0.11.2
     hooks:
       - id: flake8
         exclude: "tests/test_model/interface2050.py"
