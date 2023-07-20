@@ -9,7 +9,6 @@ repos:
     hooks:
       - id: isort
         exclude: "tests/test_model/interface2050.py"
-        args: ['--order-by-type', '--length-sort', "--profile", "black", "--filter-files"]
 
   - repo: https://github.com/psf/black
     rev: "20.8b1"
