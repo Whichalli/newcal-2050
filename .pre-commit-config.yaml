@@ -8,7 +8,6 @@ repos:
     rev: "5.11.5"
     hooks:
       - id: isort
-        additional_dependencies: [toml]
         exclude: "tests/test_model/interface2050.py"
         args: ['--order-by-type', '--length-sort', "--profile", "black", "--filter-files"]
         name: isort (python)
